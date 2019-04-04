@@ -1,0 +1,28 @@
+.cont {
+	margin:auto;
+	width:1000px;
+	background-color: lightgreen;
+}
+header{
+	height: 300px;
+	width: 100%;
+	border:solid;
+	background-color: lightblue;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	border:solid;
+}
+header>h1{
+	text-align: center;
+	font-size:70px;
+}
+form{
+	border:solid;
+	margin:auto;
+}
+h1{
+	text-align: center;
+	font:Arial, Helvetica, sans-serif;
+}
