@@ -1,28 +1,68 @@
-.cont {
-	margin:auto;
-	width:1000px;
-	background-color: lightgreen;
+body{
+	padding: 0px;
+	margin: 0px;
+	background:url('./image/1.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	/*font-family:Arial;*/
 }
 header{
-	height: 300px;
-	width: 100%;
 	border:solid;
-	background-color: lightblue;
+	height: 500px;
+	background-image:url('./image/10.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	opacity:.8;
 }
-footer{
-	height: 100px;
-	width: 100%;
-	border:solid;
+#menu{
+	display: none;
+	padding: 0px;
+	box-sizing: border-box;
+	position: fixed;
+	height: 0px;
+	left:0px;
+	top:0px;
 }
-header>h1{
+#menu>ul{
+	padding: 0px;
+	margin: 0px;
+}
+#menu>ul>li{
+/*	display: inline-block;*/
+	list-style: none;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity:.8;
+	color: white;
 	text-align: center;
-	font-size:70px;
+	line-height: 40px;
+	margin-bottom: 2px;
 }
-form{
+.kyanq{
+	padding: 10px;
+	width: 60%;
+	margin: 50px auto;
 	border:solid;
-	margin:auto;
+	background-color: black;
+	border-radius: 10px;
+	opacity:.8;
 }
-h1{
+.kyanq>p,.kyanq>h1{
+	color:white;
+	text-align: justify;
+}
+.kyanq>h1{
 	text-align: center;
-	font:Arial, Helvetica, sans-serif;
+}
+.kyanq>img{
+	float: left;
+	margin:20px;
+}
+.voghjuyn{
+	width: 50%;
+	margin: 15% auto;
+}
+.voghjuyn>h1,.voghjuyn>p{
+	text-align: center;
 }
