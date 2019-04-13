@@ -7,7 +7,7 @@ body{
 	/*font-family:Arial;*/
 }
 header{
-	border:solid;
+	border:solid white;
 	height: 500px;
 	background-image:url('./image/10.jpg');
 	background-attachment: fixed;
@@ -28,7 +28,6 @@ header{
 	margin: 0px;
 }
 #menu>ul>li{
-/*	display: inline-block;*/
 	list-style: none;
 	width: 200px;
 	height: 40px;
@@ -43,14 +42,31 @@ header{
 	padding: 10px;
 	width: 60%;
 	margin: 50px auto;
-	border:solid;
 	background-color: black;
 	border-radius: 10px;
 	opacity:.8;
 }
-.kyanq>p,.kyanq>h1{
+.kyanq td,.kyanq>p,.kyanq>h1{
 	color:white;
 	text-align: justify;
+	list-style: none;
+}
+.img{
+	width:50px;
+	height: 50px;
+}
+.kyanq table{
+	width: 100%;
+}
+.kyanq td{
+	text-align: center;
+}
+.menuErg img{
+	width: 100%;
+	height: 100%;
+}
+.kyanq>table>tr>td>img{
+	width: 100%;
 }
 .kyanq>h1{
 	text-align: center;
@@ -59,10 +75,29 @@ header{
 	float: left;
 	margin:20px;
 }
+.menuErg:hover{
+	background-color: gray;
+}
 .voghjuyn{
 	width: 50%;
 	margin: 15% auto;
 }
 .voghjuyn>h1,.voghjuyn>p{
 	text-align: center;
+}
+.window{
+	margin:5% auto;
+	width: 400px;
+	height: 400px;
+}
+.pup{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left:0px;
+	top:0px;
+	background-color: black;
+	opacity: .8;
+	display: none;
+	box-sizing: border-box;
 }
