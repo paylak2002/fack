@@ -5,8 +5,20 @@ function func(param){
 		$('.window>center>iframe').css('height','400px')
 	})
 }
-window.ondblclick = ()=>{
+function op(param)
+{
+	$('.p').css('display','block')
+	$('.imgp').attr('src',param.src)
+	anime({
+		targets: ".imgp",
+		width:400,
+		autoplay:true,
+	});
+}
+function cl(param){
 	$('.pup').css('display','none')
+	$('.p').css('display','none')
+	$('.imgp').css('width','300px')
 }
 window.onload = ()=>{
 	// Initial state
@@ -120,7 +132,7 @@ window.onload = ()=>{
 				},10)
 			}
 		})
-		/*$('#nkarner').click(()=>{
+		$('#nkarner').click(()=>{
 			var k = 0;
 			if(window.scrollY > $('header').height() + $('.k').height() + $('.e').height() + $('.m').height() + 240)
 			{
@@ -151,7 +163,7 @@ window.onload = ()=>{
 					}
 				},10)
 			}
-		})*/
+		})
 		window.addEventListener('scroll', ()=>{
 			var scroll = document.documentElement.scrollTop
 			if(scroll >= $('header').height())
