@@ -1,22 +1,13 @@
 {
-  "name": "fack",
+  "name": "css",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "gallery.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paylak2002/fack.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paylak2002/fack/issues"
-  },
-  "homepage": "https://github.com/paylak2002/fack#readme",
   "dependencies": {
     "express": "^4.16.4"
   }
